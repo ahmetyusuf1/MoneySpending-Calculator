@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Title -->
+    <h1 class="head">Spending Calculator</h1>
+
+    <!-- Container Start -->
+    <div class="container">
+        <h3 class="greeting">Welcome, <input type="text" id="name-input" placeholder="Enter your name..."></h3>
+        <form action="#">
+            <div class="row">
+                <div class="form-spending">
+                    <label for="#">Product:</label>
+                    <input type="text" placeholder="Enter Product" id="spending">
+                </div>
+                <div class="form-price">
+                    <label for="#">Price:</label>
+                    <input type="number" placeholder="Enter Price" id="price">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-event">
+                    <input type="checkbox" id="checkBox">
+                    <label for="">Paid</label>
+                </div>
+                <button class="add-button">Add</button>
+            </div>
+        </form>
+
+        <div class="total">
+            <div class="total-text">Total Spending: <span id="total-info">0</span> &#36;</div>
+        </div>
+
+        <select id="filter-select">
+            <option disabled value="choose">Choose</option>
+            <option value="all">All</option>
+            <option value="not-paid">Not Paid</option>
+            <option value="paid">Paid</option>
+        </select>
+
+        <div class="list"></div>
+    </div>
+    <!-- Container End -->
+
+    <script src="./main.js"></script>
+</body>
+</html>
