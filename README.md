@@ -2,24 +2,19 @@
 
 <p>This project is a website that allows users to track their expenses and make calculations.</p>
 
-<h2>Content</h2>
+<h2>Project Content</h2>
 
 <ul>
-
-<li>Home Page</li>
-
+  <li>Message Sending Area</li>
 </ul>
 
 <h2>Used Technologies</h2>
 
 <ul>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>Javascript</li>
-
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Google Fonts</li>
 </ul>
 
 <h1>Screen Gif</h1>
